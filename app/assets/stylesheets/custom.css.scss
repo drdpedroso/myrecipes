@@ -1,0 +1,67 @@
+$orange: #000000;
+$navbar-default-bg : $orange;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:10x;
+  float:left;
+  margin-right:10px;
+  font-size:2em;
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+#logo:hover{
+  color:white;
+}
+
+body{
+  padding-top:90px;
+}
+
+.nav_item{
+  margin-top:20px;
+  margin-left:25px;
+  float:left;
+}
+
+.center{
+  text-align:center;
+}
+
+h1,h2,h3,h4,h5{
+  line-height: 1;
+}
+
+h1{
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #777;
+}
+
+.left{
+  text-align: left;
+  letter-spacing: .5px;
+}
+
+.footer{
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  
+}
