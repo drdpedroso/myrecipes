@@ -2,30 +2,15 @@
 <html>
 <head>
   <title>My Recipes</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %> 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header class="navbar navbar-fixed-top navbar-default">
-  <div class="conteiner">
-    <%= link_to "myRecipes", "",class:"btn btn-lg btn-success", id:"logo" %>
-    <div class="nav_item">
-      <%= link_to "link1","",class:"btn btn-lg btn-warning" %>
-    </div>
-    <div class="nav_item">
-      <%= link_to "link1","",class:"btn btn-lg btn-warning" %>
-    </div>
-    <div class="nav_item">
-      <%= link_to "link1","",class:"btn btn-lg btn-warning" %>
-    </div>
-  </div>
-</header>
+<%= render 'layouts/navigation' %> <!-- chama o header -->
 <div class="conteiner">
 <%= yield %>
-<div class="footer">
-  <p>&copy; My Recipes 2015</p>
-</div>
+<%= render 'layouts/footer' %> <!-- chama o footer -->
 </div>
 
 </body>
