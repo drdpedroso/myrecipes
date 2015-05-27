@@ -18,7 +18,7 @@ group :development, :teste do #tudo que esta no grupo developmente e no grupo te
   gem 'pry'
 end
 
-ground :production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
