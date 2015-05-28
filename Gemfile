@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
-group :development, :teste do #tudo que esta no grupo developmente e no grupo teste
+group :development, :teste do 
   gem 'sqlite3'
   gem 'pry'
 end
