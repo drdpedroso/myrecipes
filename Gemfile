@@ -14,7 +14,6 @@ gem 'spring',        group: :development
 
 group :development, :teste do #tudo que esta no grupo developmente e no grupo teste
   gem 'sqlite3'
-  #gem 'pg'
   gem 'pry'
 end
 
