@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150624155324) do
+ActiveRecord::Schema.define(version: 20150707195139) do
 
   create_table "chefs", force: true do |t|
     t.string   "chefname"
